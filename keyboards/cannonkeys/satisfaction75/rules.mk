@@ -26,6 +26,7 @@ ENCODER_ENABLE = yes
 OLED_ENABLE = yes
 OLED_DRIVER = SSD1306
 #BACKLIGHT_ENABLE = yes
+WPM_ENABLE = yes
 
 DEFAULT_FOLDER = cannonkeys/satisfaction75/rev1
 

@@ -75,7 +75,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define OLED_UPDATE_INTERVAL 66 // ~15fps
 
 // OLED_TIMEOUT is incompatible with the OLED_OFF mode
-#define OLED_TIMEOUT 0
+#define OLED_TIMEOUT 60000
 
 // OLED timeout reimplemented in the keyboard-specific code
 #define CUSTOM_OLED_TIMEOUT 60000
