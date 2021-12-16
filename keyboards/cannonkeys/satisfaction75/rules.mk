@@ -16,17 +16,17 @@ SRC += led.c \
       satisfaction_encoder.c \
       satisfaction_oled.c
 
-BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
-MOUSEKEY_ENABLE = yes	# Mouse keys
-EXTRAKEY_ENABLE = yes	# Audio control and System control
-CONSOLE_ENABLE = yes	# Console for debug
-COMMAND_ENABLE = yes    # Commands for debug and configuration
-NKRO_ENABLE = yes	    # USB Nkey Rollover
+BOOTMAGIC_ENABLE = yes    # Enable Bootmagic Lite
+MOUSEKEY_ENABLE = yes	  # Mouse keys
+EXTRAKEY_ENABLE = yes	  # Audio control and System control
+CONSOLE_ENABLE = yes	  # Console for debug
+COMMAND_ENABLE = yes      # Commands for debug and configuration
+NKRO_ENABLE = yes	        # USB Nkey Rollover
 ENCODER_ENABLE = yes
 OLED_ENABLE = yes
 OLED_DRIVER = SSD1306
 #BACKLIGHT_ENABLE = yes
-WPM_ENABLE = yes
+WPM_ENABLE = yes          # Enable WPM Calculation
 
 DEFAULT_FOLDER = cannonkeys/satisfaction75/rev1
 
